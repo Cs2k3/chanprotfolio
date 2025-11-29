@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chandrashekar | Hacker Portfolio</title>
+
+<!-- Google Hacker Font -->
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #000;
+        color: #00ffea;
+        font-family: 'Share Tech Mono', monospace;
+        overflow-x: hidden;
+    }
+
+    /* Glitch Title */
+    .glitch {
+        font-size: 3rem;
+        font-weight: bold;
+        position: relative;
+        text-align: center;
+        margin-top: 40px;
+        animation: glitch 1s infinite;
+    }
+
+    @keyframes glitch {
+        0% { text-shadow: 2px 2px #f00; }
+        20% { text-shadow: -2px -2px #0f0; }
+        40% { text-shadow: 2px -2px #00f; }
+        60% { text-shadow: -2px 2px #f0f; }
+        80% { text-shadow: 2px 2px #0ff; }
+        100% { text-shadow: -2px -2px #ff0; }
+    }
+
+    /* Terminal box */
+    .terminal {
+        width: 90%;
+        margin: 40px auto;
+        border: 2px solid #00ffea;
+        border-radius: 10px;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 20px #00f5ff;
+    }
+
+    .prompt {
+        color: #0f0;
+    }
+
+    .typing {
+        border-right: 2px solid #00ffea;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        animation: typing 3s steps(40, end) forwards, blink .7s infinite;
+    }
+
+    @keyframes typing { from { width: 0 } to { width: 100% } }
+    @keyframes blink { 50% { border-color: transparent } }
+
+    /* Section headers */
+    h2 {
+        margin-top: 40px;
+        color: #00eaff;
+        text-shadow: 0 0 10px #00eaff;
+        border-bottom: 1px solid #00eaff;
+        padding-bottom: 5px;
+    }
+
+    .item {
+        margin: 10px 0;
+    }
+
+    .glow {
+        text-shadow: 0 0 10px #00fff2;
+    }
+
+    a {
+        color: #0ff;
+        text-decoration: none;
+    }
+    a:hover { color: #f0f; }
+</style>
+</head>
+
+<body>
+
+<!-- Glitch Header -->
+<div class="glitch">>_ CHANDRASHEKAR R</div>
+
+<!-- Terminal Intro -->
+<div class="terminal">
+    <div class="prompt">root@portfolio:~$ <span class="typing">Welcome to my Hacker-Themed Portfolio</span></div>
+</div>
+
+<!-- ABOUT -->
+<div class="terminal">
+    <h2>⚡ ABOUT ME</h2>
+    <p class="glow">
+        Software Development Engineer & AI/ML Engineer with experience at AWS.  
+        Expertise in scalable systems, distributed ML, ETL pipelines, LLM fine-tuning, and cloud engineering.
+    </p>
+</div>
+
+<!-- SKILLS -->
+<div class="terminal">
+    <h2>💻 TECH STACK</h2>
+
+    <div class="item">🧠 AI/ML — TensorFlow, PyTorch, Scikit-Learn, NLP, CV, LLM Fine-Tuning</div>
+    <div class="item">☁️ Cloud — AWS Bedrock, S3, EC2, Lambda, SageMaker, CI/CD</div>
+    <div class="item">🛠️ Languages — Python, Java, SQL, JavaScript</div>
+    <div class="item">📊 Data — ETL, EDA, Airflow, Big Data, A/B Testing</div>
+    <div class="item">🧩 Tools — Power BI, Tableau, Git, REST APIs</div>
+</div>
+
+<!-- EXPERIENCE -->
+<div class="terminal">
+    <h2>🛰️ EXPERIENCE</h2>
+
+    <div class="item">
+        <strong>Amazon Web Services (AWS) — Machine Learning Associate</strong><br>
+        • Fine-tuned LLMs on Bedrock improving accuracy by 18%<br>
+        • Built ETL pipelines improving throughput by 45%<br>
+        • Automated dashboards reducing manual work by 70%<br>
+        • Distributed training on TB-scale datasets
+    </div>
+
+    <div class="item">
+        <strong>Kodnest Technologies — Software Developer Intern</strong><br>
+        • Java/MySQL analytics improved speed by 30%<br>
+        • Real-time dashboards using D3.js<br>
+        • Optimized SQL queries reducing load time by 40%
+    </div>
+
+    <div class="item">
+        <strong>Innovaskill — Frontend Developer Intern</strong><br>
+        • Built responsive dashboards<br>
+        • UI A/B testing improved UX by 20%
+    </div>
+</div>
+
+<!-- PROJECTS -->
+<div class="terminal">
+    <h2>🔐 PROJECTS</h2>
+
+    <div class="item">
+        <strong>SageMaster Pro — ML Data Labeling Dashboard</strong><br>
+        • NLP analytics, role management, real-time insights
+    </div>
+
+    <div class="item">
+        <strong>Performance Metrics ETL & ML Automation</strong><br>
+        • Reduced processing time by 70%<br>
+        • Automated ML pipelines
+    </div>
+
+    <div class="item">
+        <strong>AI-Powered Robotic Lamp</strong><br>
+        • CNN model with 92% accuracy<br>
+        • IoT real-time deployment
+    </div>
+</div>
+
+<!-- CONTACT -->
+<div class="terminal">
+    <h2>📡 CONTACT</h2>
+    <div class="item">📍 Bangalore, India</div>
+    <div class="item">📧 cs2k3chandra@gmail.com</div>
+    <div class="item">📞 8660855375</div>
+    <div class="item">🔗 <a href="#">LinkedIn</a> | <a href="#">GitHub</a></div>
+</div>
+
+</body>
+</html>
